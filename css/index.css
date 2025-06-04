@@ -1,4 +1,4 @@
-/* Actualizado al jueves 29-05-2025 - 7:26 am */
+/* Actualizado al miercoles 4 de junio  de 2025 - 5:10 pm */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .logo{
@@ -37,6 +37,19 @@ h1{
 
 .seccion-texto{
     font-size: 1.2rem;
+}
+
+.texto-negro{
+    color: black;
+}
+
+.texto-blanco{
+    color: #ffffff;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
 }
 
 /* Barra de navegación */
@@ -133,6 +146,25 @@ h1{
 .experiencia .columna:hover{
     color: white;
     background-color: #1b1b32;
+}
+
+/* Proyectos recientes */
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
 }
 
 /* Adaptable (Responsive) */
